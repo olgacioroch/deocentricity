@@ -34,8 +34,12 @@
             <li class="fa-youtube"><a href="http://www.youtube.com/user/Deocentricity">youtube.com/deocentricity</a></li>
           </ul>
           <ul class="copyright">
-            <li>&copy Developed with  <span style='margin: 0 5px' class="fa fa-heart-o" aria-hidden="true"></span> by 
-               <a href="mailto:olgacioroch@gmail.com">Olga Cioroch</a></li>
+              <li>
+                Deocentricity. Copyright © 2011-2017.
+                Powered by WordPress version <?php bloginfo('version'); ?>.
+                Developed with  <span style='margin: 0 5px' class="fa fa-heart-o" aria-hidden="true"></span> by
+               <a href="mailto:olgacioroch@gmail.com">Olga Cioroch</a>
+             </li>
           </ul>
         </div>
       </section>

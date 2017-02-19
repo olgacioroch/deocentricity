@@ -1,5 +1,6 @@
 <?php get_header() ?>
 
+
 <?php
   $c_post = get_post(get_the_ID());
   $c_images = get_posts(
@@ -26,6 +27,7 @@
         </div>
   </header> <!-- header -->
 
+
   <div class="wrapper">
     <div class="inner">
       <?php
@@ -35,8 +37,8 @@
     </div>
   </div> <!-- wrapper content -->
 
-  <?php if ( is_active_sidebar( 'two_last_post' ) ) : ?>
-  		<?php dynamic_sidebar( 'two_last_post' ); ?>
+  <?php if (is_active_sidebar('two_last_post')) : ?>
+  		<?php dynamic_sidebar('two_last_post'); ?>
   <?php endif; ?>
 
 </section> <!-- wrapper section -->

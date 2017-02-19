@@ -1,16 +1,22 @@
 <html>
 <head>
-  <title>Tutorial theme</title>
+  <title><?php bloginfo('name')?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="<?php bloginfo('description') ?> ">
+  <?php echo wp_site_icon(); ?>
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+
   <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
   <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 
 </head>
-<body>
+
+
+
+<body <?php body_class(); ?>>
   <div id="page-wrapper">
     <header id="header" class="alt">
-      <h1><a href="index.html">Solid State</a></h1>
+      <h1><a href="<?php bloginfo('url')?>"><?php bloginfo('name'); ?></a></h1>
       <nav>
         <a href="#menu">Menu</a>
       </nav>
