@@ -1,14 +1,12 @@
 <html>
+<!-- Head -->
 <head>
-  <title><?php bloginfo('name')?></title>
+  <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="<?php bloginfo('description') ?> ">
+  <meta name="keywords" content="gospel kraków cracow chór deocentricity" />
   <?php echo wp_site_icon(); ?>
-  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-
-  <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-  <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
+  <?php wp_head() ?>
 </head>
 
 
